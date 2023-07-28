@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.perfil{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.yutube{
+    width: 90px;
+    height: 30px;
+    padding-left: 20px;
+}
+.yu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yu span,img{
+    cursor: pointer;
+}
+.tu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding-right: 10px
+}
+.tu span{
+    cursor: pointer;
+}
+#pes{
+    width: 250px;
+    height: 30px;
+    font-size: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.be{
+    display: flex;
+    width: 130px;
+    justify-content: space-around;
+}
+.be span{
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.descriçao{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 83%;
+    height: 230px;
+    justify-content: space-around;
+}
+.descriçao h1 ,h2 ,h3{
+    font-size: 1rem;
+}
+.dio{
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+.colina{
+    display: flex;
+    flex-direction: column;
+}
+.increvase{
+    display: flex;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.increvase button{
+    width: 150px;
+    background-color: rgb(211, 11, 11);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+}
+.items p{
+    margin-left: 10px;
+}
+.videos{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.videos img{
+    width: 40%;
+
+}
+.conteudo{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
